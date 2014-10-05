@@ -1,0 +1,22 @@
+{
+  "name": "k/init",
+
+  "authors": [
+    {
+      "name": "Kapil Verma",
+      "email": "kapv89@gmail.com"
+    }
+  ],
+
+  "minimum-stability": "dev",
+  
+  "require": {
+    "silex/silex": "1.2.1"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "init": "src" 
+    }
+  }
+}
